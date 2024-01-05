@@ -24,7 +24,7 @@ set cpo&vim
 
 function! SyntaxCheckers_perl_perlcritic_GetLocList() dict
     let makeprg = self.makeprgBuild({
-        \ 'args_after': '--quiet --nocolor --verbose "\%s:\%f:\%l:\%c:(\%s) \%m (\%e)\n"' })
+                \ 'args_after': '--quiet --nocolor --verbose "\%s:\%f:\%l:\%c:(\%s) \%m (\%e) {\%p}\n"' })
 
     let errorformat = '%t:%f:%l:%c:%m'
 
