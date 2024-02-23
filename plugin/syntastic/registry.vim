@@ -15,6 +15,7 @@ let s:_DEFAULT_CHECKERS = {
         \ 'asl':           ['iasl'],
         \ 'asm':           ['gcc'],
         \ 'bash':          ['sh', 'shellcheck'],
+        \ 'bats':          ['sh', 'shellcheck'],
         \ 'bro':           ['bro'],
         \ 'bemhtml':       ['bemhtmllint'],
         \ 'c':             ['gcc'],
